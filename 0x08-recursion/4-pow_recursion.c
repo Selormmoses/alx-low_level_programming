@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _pow__recursion - returns value x to power y
+ * _pow__recursion - calculate returns value x to power y
  * @x: value raise
  * @y: to y power
  *
- * Return: result
+ * Return: result of x  to the power of y, or -1 if y is negative
  */
 
-int _pow_recursion(int x, int y)
+int _pow_recursion(int x, int y);
 {
 	if (y < 0)
 		return (-1);
